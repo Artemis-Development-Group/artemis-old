@@ -4,6 +4,10 @@ Artemis is an OIC social media network forked from Reddit R2.
 
 <img width="1691" height="978" alt="image" src="https://github.com/user-attachments/assets/7ee34ab9-fd45-4d7b-bceb-2cf24611f9f5" />
 
+# Note
+
+This repository is archived and things are broken considering this was very early Artemis. Some bad code here, I don't know what you'd do with it lol. We have moved over to Artemis-Development-Group/artemis
+
 # Installation
 
 You will need Ubuntu 14.04 Trusty Tahr (nothing older, nothing newer). We recommend you use a Docker image of Trusty Tahr running on a modern system to avoid any security vulnerabilities that might stem from running such an old system in production. Download the source, make the `/home/src` folder, dump all the stuff from this repo in that folder, run `/artemis/install-artemis.sh` as superuser, and then change the `/artemis/r2/run.ini` symlink to point at `development.ini` instead of `production.ini` (if you're only devving). After that set up your hosts to make `artemis.local` point to your running server, and navigate to that URL in your browser, congrats, you have Artemis up and working.
